@@ -5,7 +5,7 @@
   <project name="Lloir/evitare_kernel_pizza" path="kernel/htc/evitareul" remote="bitbucket" revision="WIP" />
   <project name="Lloir/android_device_htc_evitareul" path="device/htc/evitareul" remote="bitbucket" revision="AOSPA" />
   <remove-project name="ParanoidAndroid/android_vendor_pa" />
-  <remove-project name="ParanoidAndroid/android_packages_apps_settings" />
+  <remove-project name="ParanoidAndroid/android_packages_apps_Settings" />
   <remove-project name="ParanoidAndroid/android_frameworks_native" />
   <remove-project name="ParanoidAndroid/android_external_bluetooth_bluedroid" />
   <project name="solomon56/android_vendor_pa" path="vendor/pa" remote="bitbucket" revision="evitareul" />
