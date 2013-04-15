@@ -8,6 +8,6 @@
   <remove-project name="ParanoidAndroid/android_frameworks_native" />
   <remove-project name="ParanoidAndroid/android_external_bluetooth_bluedroid" />
   <project name="solomon56/android_vendor_pa" path="vendor/pa" remote="bitbucket" revision="evitareul" />
-  <project name="solomon56/android_frameworks_native" path="frameworks/native" remote="bitbucket" revision="evitareul" />
+  <project name="frameworks_native" path="frameworks/native" remote="maxwen" revision="jb-mr1" />
   <project name="bluedroid" path="external/bluetooth/bluedroid" remote="maxwen" revision="jb-mr1" />
 </manifest>
