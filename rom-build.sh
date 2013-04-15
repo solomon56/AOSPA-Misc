@@ -50,6 +50,11 @@ clear
 
 echo -e "${cya}Building ${bldcya}ParanoidAndroid v$VERSION ${txtrst}";
 
+echo -e "${cya}Setting Default Build Directory ${txtrst}";
+export OUT_DIR_COMMON_BASE=/build
+echo -e "${cya}Linking Build Directory ${txtrst}";
+if [ ! -d "$OUT_DIR_COMMON_BASE/out" ] ln -s $DIR/out $OUT_DIR_COMMON_BASE/out;
+
 echo -e "${cya}"
 ./vendor/pa/tools/getdevicetree.py $DEVICE
 echo -e "${txtrst}"
