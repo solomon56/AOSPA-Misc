@@ -6,7 +6,7 @@
   <project name="Lloir/android_device_htc_evitareul" path="device/htc/evitareul" remote="bitbucket" revision="AOSPA" />
   <remove-project name="ParanoidAndroid/android_vendor_pa" />
   <remove-project name="ParanoidAndroid/android_frameworks_native" />
-  <remove-project name="ParanoidAndroid/android_frameworks_av" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="ParanoidAndroid/android_external_bluetooth_bluedroid" />
   <project name="solomon56/android_vendor_pa" path="vendor/pa" remote="bitbucket" revision="evitareul" />
   <project name="frameworks_native" path="frameworks/native" remote="maxwen" revision="jb-mr1" />
