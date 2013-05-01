@@ -11,7 +11,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="ParanoidAndroid/android_external_bluetooth_bluedroid" />
   <remove-project name="ParanoidAndroid/android_build" />
-  <project name="solomon56/android_build" path="build/" remote="github" revision="jellybean">
+  <project name="solomon56/android_build" path="build/" remote="github" revision="jellybean" />
   <project name="solomon56/android_vendor_pa" path="vendor/pa" remote="bitbucket" revision="evitareul" />
   <project name="frameworks_native" path="frameworks/native" remote="maxwen" revision="jb-mr1" />
   <project name="frameworks_av" path="frameworks/av" remote="maxwen" revision="jb-mr1" />
