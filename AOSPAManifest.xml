@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://bitbucket.org/" name="bitbucket" />
+  <project name="nightlies/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="cm-10.1" />
+  <project name="nightlies/device_htc_evitareul" path="device/htc/evitareul" remote="github" revision="aospa" />
+  <project name="nightlies/vendor_htc_evitareul" path="vendor/htc/evitareul" remote="github" revision="master"/>
+  <project name="nightlies/kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="unstable" />
+  <remove-project name="ParanoidAndroid/android_vendor_pa" />
+  <project name="solomon56/android_vendor_pa" path="vendor/pa" remote="bitbucket" revision="evitareul" />
+  <remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
+  <project name="nightlies/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="cm-10.1"/>
+</manifest>
