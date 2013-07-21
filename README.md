@@ -1,1 +1,5 @@
-# This is my README
+# Misc Files for AOSPA for the evitareul
+use or abuse
+
+
+-solomon
