@@ -2,5 +2,5 @@
 <manifest>
   <project name="evitareul/android_device_htc_evitareul" path="device/htc/evitareul" remote="github" revision="cm-10.1" />
   <project name="evitareul/vendor_htc_evitareul" path="vendor/htc/evitareul" remote="github" revision="master"/>
-  <project name="evitareul/kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="cm-10.1" />
+  <project name="evitareul/android_kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="cm-10.1" />
 </manifest>
