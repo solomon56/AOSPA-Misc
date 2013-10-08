@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="evitareul/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="cm-10.1" />
   <project name="evitareul/android_device_htc_evitareul" path="device/htc/evitareul" remote="github" revision="cm-10.1" />
   <project name="evitareul/vendor_htc_evitareul" path="vendor/htc/evitareul" remote="github" revision="master"/>
   <project name="evitareul/kernel_htc_evitareul" path="kernel/htc/evitareul" remote="github" revision="cm-10.1" />
